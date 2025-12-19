@@ -6,7 +6,9 @@
     - เมื่อ Algorithm นี้ทำงาน จะต้องเห็นผลลัพธ์ด้านล่าง
 */
 
-// Start coding here
+function exponentialNumber (numbers) {
+    return numbers.map(multiply => multiply ** 2)
+}
 
 const numbers1 = [3, 5, 10, 12];
 console.log(exponentialNumber(numbers1)); // [ 9, 25, 100, 144 ]
